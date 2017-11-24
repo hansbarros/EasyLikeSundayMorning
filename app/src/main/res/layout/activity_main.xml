@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BDBDBD"
     tools:context="com.example.hansb.elsm.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
@@ -11,8 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="15dp"
         android:text="Copyright &#169; Easy Like Sunday Morning"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,10 +22,11 @@
 
     <Button
         android:id="@+id/audioStreamBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="88dp"
+        android:background="#EEEEEE"
         android:text="launch streaming"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
